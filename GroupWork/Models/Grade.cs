@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace GroupWork.Models
 {
-    internal class Grade
+    public class Grade
     {
+        public int ID { get; set; }
+        public string GradeName { get; set; }
+
+        public List<Students> Students { get; set; }
+
+       
     }
 }
